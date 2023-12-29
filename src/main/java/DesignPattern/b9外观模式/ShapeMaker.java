@@ -8,6 +8,7 @@ import DesignPattern.b9外观模式.ShapeImpl.Square;
  * 创建一个外观类。
  */
 public class ShapeMaker {
+
     private Shape circle;
     private Shape rectangle;
     private Shape square;

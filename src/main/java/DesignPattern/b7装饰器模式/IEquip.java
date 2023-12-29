@@ -1,6 +1,5 @@
 package DesignPattern.b7装饰器模式;
 
-
 /**
  * 装备的接口
  */

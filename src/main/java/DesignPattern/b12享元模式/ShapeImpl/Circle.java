@@ -3,6 +3,7 @@ package DesignPattern.b12享元模式.ShapeImpl;
 import DesignPattern.b12享元模式.Shape;
 
 public class Circle implements Shape {
+
     private String color;
     private int x;
     private int y;

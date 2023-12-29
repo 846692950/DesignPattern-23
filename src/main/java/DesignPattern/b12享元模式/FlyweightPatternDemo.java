@@ -14,6 +14,7 @@ import DesignPattern.b12享元模式.ShapeImpl.Circle;
  * 该程序只会创建 5 个颜色对应数量的对象，其它的输出都是使用现成的。
  */
 public class FlyweightPatternDemo {
+
     private static final String colors[] = {"红色", "绿色", "蓝色", "黑色", "白色"};
 
     public static void main(String[] args) {

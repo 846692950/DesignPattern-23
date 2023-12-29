@@ -8,6 +8,7 @@ import DesignPattern.b7装饰器模式.IEquipExt.IEquipDecorator;
  * 每颗攻击力+15
  */
 public class RedGemDecorator implements IEquipDecorator {
+
     /**
      * 每个装饰品维护一个装备
      */

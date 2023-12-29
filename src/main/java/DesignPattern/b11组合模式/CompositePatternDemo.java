@@ -10,6 +10,7 @@ package DesignPattern.b11组合模式;
  */
 public class CompositePatternDemo {
     public static void main(String[] args) {
+
         Employee CEO = new Employee("石昊", "总经理", 30000);
 
         Employee headSales = new Employee("清漪", "销售主管", 20000);

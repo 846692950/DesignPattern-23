@@ -5,6 +5,7 @@ package DesignPattern.b10桥接模式;
  * 用于充当桥梁
  */
 public abstract class Shape {
+
     protected DrawAPI drawAPI;
     protected Shape(DrawAPI drawAPI) {
         this.drawAPI = drawAPI;
