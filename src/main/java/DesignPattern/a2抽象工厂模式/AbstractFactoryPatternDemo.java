@@ -11,6 +11,7 @@ package DesignPattern.a2抽象工厂模式;
  * 通过使用抽象工厂模式，可以将客户端与具体产品的创建过程解耦，使得客户端可以通过工厂接口来创建一族产品。
  */
 public class AbstractFactoryPatternDemo {
+
     public static void main(String[] args) {
 
         //获取形状工厂
@@ -48,5 +49,7 @@ public class AbstractFactoryPatternDemo {
         Color color3 = colorFactory.getColor("蓝色");
         //调用 Blue 的 fill 方法
         color3.fill();
+
     }
+
 }

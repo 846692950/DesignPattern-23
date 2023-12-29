@@ -9,7 +9,9 @@ package DesignPattern.a5原型模式;
  * 我们可以缓存该对象，在下一个请求时返回它的克隆，在需要的时候更新数据库，以此来减少数据库调用。
  */
 public class PrototypePatternDemo {
+
     public static void main(String[] args) {
+
         //模拟数据库查询后带很多数据的对象
         ShapeCache.loadCache();
 
@@ -21,5 +23,7 @@ public class PrototypePatternDemo {
 
         Shape clonedShape3 = ShapeCache.getShape("3");
         System.out.println("形状 : " + clonedShape3.getType());
+
     }
+
 }

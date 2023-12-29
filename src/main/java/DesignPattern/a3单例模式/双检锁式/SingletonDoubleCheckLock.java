@@ -12,6 +12,7 @@ import lombok.Data;
  */
 @Data
 public class SingletonDoubleCheckLock {
+
     private SingletonDoubleCheckLock (){}
     private volatile static SingletonDoubleCheckLock singleton;
 

@@ -12,6 +12,7 @@ import lombok.Data;
  */
 @Data
 public class SingletonIn {
+
     private SingletonIn() {}
 
     private String message = "";

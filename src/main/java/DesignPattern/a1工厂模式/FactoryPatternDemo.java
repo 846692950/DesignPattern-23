@@ -12,6 +12,7 @@ package DesignPattern.a1工厂模式;
 public class FactoryPatternDemo {
 
     public static void main(String[] args) {
+
         ShapeFactory shapeFactory = new ShapeFactory();
 
         //获取 Circle 的对象，并调用它的 draw 方法

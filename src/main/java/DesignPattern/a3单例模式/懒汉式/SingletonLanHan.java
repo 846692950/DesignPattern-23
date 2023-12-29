@@ -8,6 +8,7 @@ import lombok.Data;
  */
 @Data
 public class SingletonLanHan {
+
     private SingletonLanHan() {}
     private static SingletonLanHan instance;
 

@@ -7,6 +7,7 @@ import java.util.List;
  * 这是一个套餐类
  */
 public class Meal {
+
     private List<Item> items = new ArrayList<Item>();
 
     public void addItem(Item item) {

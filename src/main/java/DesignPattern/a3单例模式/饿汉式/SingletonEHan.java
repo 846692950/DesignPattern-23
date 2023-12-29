@@ -8,6 +8,7 @@ import lombok.Data;
  */
 @Data
 public class SingletonEHan {
+
     private SingletonEHan() {}
     private static SingletonEHan instance = new SingletonEHan();
 

@@ -7,13 +7,8 @@ import DesignPattern.a3单例模式.静态内部类式.SingletonIn;
 import DesignPattern.a3单例模式.饿汉式.SingletonEHan;
 
 public class SingletonPatternDemo {
-    public static void main(String[] args) {
 
-        /**
-         * 不合法的构造函数
-         * 编译时错误：构造函数 SingleObject() 是不可见的
-         * SingleObject object = new SingleObject();
-         */
+    public static void main(String[] args) {
 
         //线程不安全的懒汉式单例模式
         SingletonLanHan instanceNoSafe = SingletonLanHan.getInstanceNoSafe();
@@ -45,5 +40,6 @@ public class SingletonPatternDemo {
         singletonEnum.FRIDAY();
         singletonEnum.SATURDAY();
         singletonEnum.SUNDAY();
+
     }
 }

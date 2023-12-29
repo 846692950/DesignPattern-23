@@ -1,6 +1,7 @@
 package DesignPattern.a3单例模式.枚举式;
 
 public enum SingletonEnum {
+
     INSTANCE;
 
     public void MONDAY() {
